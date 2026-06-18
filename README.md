@@ -1,28 +1,19 @@
-# Backend Lab
+# WorkFlow API
 
-Projeto criado para estudo e prática de conceitos modernos de backend utilizando FastAPI.
-
-## Tecnologias
-
-- Python
-- FastAPI
-- SQLAlchemy
-- SQLite
-- Alembic
-- JWT
-- Docker
-- Pytest
+API desenvolvida com FastAPI para gerenciamento de atividades, prazos, status, comentários, anexos e notificações.
 
 ## Objetivo
 
-Implementar gradualmente funcionalidades encontradas em aplicações reais:
+Criar um laboratório backend com recursos usados em aplicações reais:
 
+- Cadastro de usuários
+- Gerenciamento de tarefas
+- Status e prioridades
+- Controle de prazo
+- Notificações de vencimento
+- Comentários
+- Upload de anexos
+- Paginação e filtros
 - Autenticação JWT
-- Refresh Token
-- Upload de Arquivos
-- Paginação
-- Filtros
-- Logs
-- Cache
+- Testes automatizados
 - Docker
-- Testes Automatizados
