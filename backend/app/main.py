@@ -1,9 +1,9 @@
 from fastapi import FastAPI
 
-from app.core.config import settings
-from app.database import Base, engine
-from app.models import User
-from app.routes import user_router
+from backend.app.core.config import settings
+from backend.app.database import Base, engine
+from backend.app.models import User, Task
+from backend.app.routes import user_router
 
 
 Base.metadata.create_all(bind=engine)

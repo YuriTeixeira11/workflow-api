@@ -1,1 +1,0 @@
-from app.routes.user_route import router as user_router
